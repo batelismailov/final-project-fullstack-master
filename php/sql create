@@ -1,0 +1,2 @@
+ insert into users (id,name,firstname,lastname,email,phone,area,title,about) values (1,'hagaguetta','haga','guetta','haga@gmail.com',054564521,'tlv','sport','experience')
+ 

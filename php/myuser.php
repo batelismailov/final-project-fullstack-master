@@ -1,6 +1,6 @@
 <?php
 require_once('db.php');
-$data=[];
+$data = [];
 if (isset($_GET) && !empty($_GET)){
 		$query = sprintf("select * from users where name = '%s'",$_GET['user']);
 		$selectResult = $mysqli->query($query);

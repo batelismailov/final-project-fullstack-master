@@ -5,7 +5,7 @@ $(function(){
         alert('No selected');
     } else {
 
-      $.get('/final-project-fullstack/php/myuser.php?user=' + userName, function(data) { //This code makes an HTTP request to /arik and puts the data in the 'data' variable
+      $.get('/final-project-fullstack-master/php/myuser.php?user=' + name, function(data) { //This code makes an HTTP request to /arik and puts the data in the 'data' variable
 
           console.log('Got data', data); //We just print whatever we got from the server
 
@@ -47,7 +47,7 @@ $(function(){
 		
       });
 	  
-	  	$.get('/final-project-fullstack/php/proskills.php?user=' + userName, function(data) 
+	  	$.get('/final-project-fullstack-master/php/proskills.php?user=' + userName, function(data) 
        { //This code makes an HTTP request to /arik and puts the data in the 'data' variable
 			
           console.log('Got data', data); //We just print whatever we got from the server
@@ -65,7 +65,7 @@ $(function(){
        });
     
         
-          $.get('/final-project-fullstack/php/perskills.php?user=' + userName, function(data) 
+          $.get('/final-project-fullstack-master/php/perskills.php?user=' + userName, function(data) 
          { //This code makes an HTTP request to /arik and puts the data in the 'data' variable
 			
           console.log('Got data', data); //We just print whatever we got from the server
@@ -81,7 +81,7 @@ $(function(){
 		});
         
 		
-		  $.get('/final-project-fullstack/php/hobbies.php?user=' + userName, function(data) 
+		  $.get('/final-project-fullstack-master/php/hobbies.php?user=' + userName, function(data) 
 		  {//This code makes an HTTP request to /arik and puts the data in the 'data' variable
 				  console.log('Got data', data); //We just print whatever we got from the server
 				  $('#categories').empty();
@@ -92,7 +92,7 @@ $(function(){
 				  
 			  });
 			  
-		 $.get('/final-project-fullstack/php/language.php?user=' + userName, function(data) 
+		 $.get('/final-project-fullstack-master/php/language.php?user=' + userName, function(data) 
 		  {//This code makes an HTTP request to /arik and puts the data in the 'data' variable
 				  console.log('Got data', data); //We just print whatever we got from the server
 				  
@@ -106,7 +106,7 @@ $(function(){
 				  
 			  });
 			  
-		 $.get('/final-project-fullstack/php/experience.php?user=' + userName, function(data) 
+		 $.get('/final-project-fullstack-master/php/experience.php?user=' + userName, function(data) 
 		  {//This code makes an HTTP request to /arik and puts the data in the 'data' variable
 				  console.log('Got data', data); //We just print whatever we got from the server
 				  
@@ -120,7 +120,7 @@ $(function(){
 				  
 			  });
 			  
-		 $.get('/final-project-fullstack/php/education.php?user=' + userName, function(data) 
+		 $.get('/final-project-fullstack-master/php/education.php?user=' + userName, function(data) 
 		  {//This code makes an HTTP request to /arik and puts the data in the 'data' variable
 				  console.log('Got data', data); //We just print whatever we got from the server
 				  

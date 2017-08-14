@@ -1,4 +1,4 @@
-<!--
+
 CREATE TABLE IF NOT EXISTS `perskills` (
 `id` int(11) NOT NULL AUTO_INCREMENT,
   `userid` int NOT NULL,
@@ -7,5 +7,3 @@ CREATE TABLE IF NOT EXISTS `perskills` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-
--->
